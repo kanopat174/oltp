@@ -1,0 +1,14 @@
+ก่อน INSERT
+  fact_rows  fact_revenue  view_rows  orders  view_revenue
+         8          1390          8       6          1390
+
+หลัง INSERT
+  fact_rows  fact_revenue  view_rows  orders  view_revenue
+        11          1900         11       8          1900
+
+Pivot province x month (มีคอลัมน์ 2026-10 เพิ่มเองอัตโนมัติ)
+ month     2026-08  2026-09  2026-10  Total
+province                                  
+Bangkok       310      540      200   1050
+Chonburi      180      360      310    850
+Total         490      900      510   1900

@@ -1,0 +1,3 @@
+source	row_count	revenue	fk_violations
+before_join_fact_sales	8	1390	0
+after_join_sales_view	8	1390	0
